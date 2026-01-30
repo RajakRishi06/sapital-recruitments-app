@@ -1,58 +1,32 @@
-# Sapital Recruitments Mobile App
+# 1. Install Node.js (if not installed)
+node --version
 
-A professional React Native mobile application for Sapital Recruitments - specializing in IT and Healthcare recruitment across India.
+# 2. Navigate to project
+cd SapitalRecruitments
 
-## Quick Start
-```bash
-# Install dependencies
+# 3. Install dependencies
 npm install
 
-# Start the app
-npm start
-# or use the quick start script
-./start.sh
-```
+# 4. Install Expo packages
+npx expo install expo expo-status-bar react-native-safe-area-context react-native-screens
 
-## Features
+# 5. Install navigation
+npm install @react-navigation/native @react-navigation/bottom-tabs
 
-### Fully Implemented
-- ✅ **Home Screen**: Complete overview with company info, expertise, and highlights
-- ✅ **About Screen**: Detailed company information, mission, vision, and values
+# 6. Install camera & image features
+npx expo install expo-camera expo-image-picker
 
-### Placeholders
-- 📌 **Services Screen**: Ready for expansion
-- 📌 **Contact Screen**: Ready for expansion
+# 7. Install notifications
+npx expo install expo-notifications
 
-## Tech Stack
+# 8. Install document picker
+npx expo install expo-document-picker
 
-- React Native (Expo)
-- React Navigation
-- JavaScript
+# 9. Install dev dependencies
+npm install --save-dev babel-preset-expo @babel/core
 
-## Project Structure
-```
-SapitalRecruitments/
-├── App.js                      # Main app with navigation
-├── src/
-│   ├── screens/               # All screen components
-│   ├── components/            # Reusable UI components
-│   └── constants/             # Theme and styling
-└── package.json               # Dependencies
-```
+# 10. Clear cache and start
+npx expo start --clear
 
-## Running the App
-
-1. Install Expo Go on your phone
-2. Run `npm start`
-3. Scan the QR code
-4. App loads on your device
-
-## Customization
-
-- **Colors**: Edit `src/constants/theme.js`
-- **Home**: Edit `src/screens/HomeScreen.js`
-- **About**: Edit `src/screens/AboutScreen.js`
-
----
-
-Built with React Native for Sapital Recruitments
+# 11. Scan QR code with Expo Go app
+# 12. App should load on your device!
